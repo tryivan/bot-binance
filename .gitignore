@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build / distribuição
+build/
+dist/
+*.egg-info/
+
+# Virtual env
+.venv/
+venv/
+.env
+
+# Logs
+*.log
+log/
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+
+# Projeto específico
+symbol_configs/
+*.csv
+.ipynb_checkpoints/

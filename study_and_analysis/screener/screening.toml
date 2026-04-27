@@ -1,0 +1,24 @@
+[screening]
+max_concurrent = 5
+min_volume =50000000
+min_atr = 2.0
+max_adx = 25.0
+atr_divisor = 4
+tp_multiplier = 2.0
+max_leverage = 10
+atr_period = 14
+adx_period = 12
+timeframe = "15m"
+ohlcv_limit = 1000
+
+[toml_defaults]
+chase_percent = 0.1
+offset_percent = 0.05
+fill_timeout = 30
+max_retries = 3
+order_type = "limit"
+candle_limit = 250
+max_rows = 500
+batch_limit = 1000
+fetch_retry_attempts = 7
+fetch_retry_delay = 2

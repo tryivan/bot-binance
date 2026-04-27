@@ -1,0 +1,31 @@
+[project]
+name = "bot-binance"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiohttp>=3.13.5",
+    "ccxt>=4.5.46",
+    "pandas>=3.0.2",
+    "pandas-ta-classic>=0.4.47",
+    "pydantic>=2.12.5",
+    "pydantic-settings>=2.13.1",
+    "requests>=2.33.1",
+    "rich>=14.3.3",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+    "ruff>=0.15.9",
+]
+
+
+[tool.ruff]
+line-length = 90
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = true
